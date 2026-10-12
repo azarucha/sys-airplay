@@ -20,7 +20,8 @@ jobs:
       - name: Install dependencies
         run: |
           apt-get update && apt-get install -y --no-install-recommends python3 zip ca-certificates
-          dkp-pacman -Sy --noconfirm --needed switch-mbedtls
+          # pkg.devkitpro.org blocks CI downloads; the image already ships the portlibs
+          test -f "$DEVKITPRO/portlibs/switch/lib/libmbedcrypto.a" || { echo "switch-mbedtls missing in image"; exit 1; }
 
       - name: Fetch ALAC decoder, libtesla and AirPlay key
         run: python3 fetch_deps.py
