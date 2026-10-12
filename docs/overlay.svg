@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="448" height="620" viewBox="0 0 448 620" font-family="Helvetica, Arial, sans-serif" role="img" aria-label="sys-airplay overlay showing the current track, progress, playback buttons and volume sliders">
+  <rect width="448" height="620" rx="14" fill="#0b0b0b"/>
+  <!-- header -->
+  <text x="24" y="52" fill="#fff" font-size="30">AirPlay</text>
+  <circle cx="352" cy="40" r="5" fill="#00ffdd"/>
+  <text x="364" y="46" fill="#aaa" font-size="16">Playing</text>
+  <text x="24" y="78" fill="#666" font-size="15">Switch · 192.168.1.50</text>
+  <text x="24" y="132" fill="#fff" font-size="26">Morning Sun</text>
+  <text x="24" y="162" fill="#00ffdd" font-size="19">Artist</text>
+  <text x="24" y="186" fill="#aaa" font-size="16">Morning Sun - Single</text>
+  <rect x="24" y="208" width="400" height="4" fill="#333"/>
+  <rect x="24" y="208" width="100" height="4" fill="#00ffdd"/>
+  <circle cx="124" cy="210" r="6" fill="#fff"/>
+  <text x="24" y="234" fill="#666" font-size="14">0:41</text>
+  <text x="424" y="234" fill="#666" font-size="14" text-anchor="end">-2:03</text>
+  <!-- transport -->
+  <circle cx="134" cy="298" r="24" fill="#222"/>
+  <path d="M120 290v16h3v-16zM133 298l10-7v14zM143 298l10-7v14z" fill="#fff" transform="translate(-6 0)"/>
+  <circle cx="224" cy="298" r="36" fill="none" stroke="#00ffdd" stroke-width="3"/>
+  <circle cx="224" cy="298" r="32" fill="#00ffdd"/>
+  <rect x="215" y="284" width="7" height="28" fill="#000"/>
+  <rect x="226" y="284" width="7" height="28" fill="#000"/>
+  <circle cx="314" cy="298" r="24" fill="#222"/>
+  <path d="M302 291l10 7-10 7zM312 291l10 7-10 7zM323 290v16h3v-16z" fill="#fff"/>
+  <!-- volume Switch -->
+  <rect x="38" y="370" width="5" height="23" fill="#ccc"/>
+  <text x="53" y="388" fill="#fff" font-size="15">Volume Switch</text>
+  <line x1="40" y1="400" x2="408" y2="400" stroke="#777"/>
+  <text x="52" y="448" fill="#fff" font-size="20">🔊</text>
+  <rect x="92" y="438" width="300" height="5" fill="#00ffdd"/>
+  <circle cx="380" cy="440" r="18" fill="#555" stroke="#777"/>
+  <!-- volume iPhone -->
+  <rect x="38" y="490" width="5" height="23" fill="#ccc"/>
+  <text x="53" y="508" fill="#fff" font-size="15">Volume iPhone</text>
+  <line x1="40" y1="520" x2="408" y2="520" stroke="#777"/>
+  <text x="52" y="568" fill="#fff" font-size="20">🔊</text>
+  <rect x="92" y="558" width="300" height="5" fill="#777"/>
+  <rect x="92" y="558" width="180" height="5" fill="#00ffdd"/>
+  <circle cx="272" cy="560" r="18" fill="#555" stroke="#777"/>
+</svg>

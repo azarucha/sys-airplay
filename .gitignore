@@ -1,0 +1,14 @@
+build/
+out/
+*.elf
+*.nso
+*.nsp
+*.npdm
+*.nacp
+*.ovl
+*.map
+sysmodule/source/alac/
+sysmodule/source/airport_key.h
+overlay/libs/
+switch-log.txt
+__pycache__/
